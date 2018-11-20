@@ -9,5 +9,5 @@ def reverse_each_word(string)
       answer = answer + x.reverse + " "
     end
   end
-  return answer
+  return answer.rstrip
 end
