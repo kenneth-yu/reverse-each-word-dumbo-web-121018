@@ -5,9 +5,8 @@ def reverse_each_word(string)
   array = string.split(" ")
   array.each do |x|
     counter++
-    if counter < array.size
-      answer = answer + x.reverse + " "
-    end
+    counter < array.size
+    answer = answer + x.reverse + " "
   end
   return answer.rstrip
 end
