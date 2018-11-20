@@ -3,7 +3,7 @@ def reverse_each_word(string)
   answer = ""
   array = string.split(" ")
   array.each do |x|
-      answer = answer + x.reverse + " "
+      x = x.reverse
   end
-  return answer.rstrip
+  
 end
