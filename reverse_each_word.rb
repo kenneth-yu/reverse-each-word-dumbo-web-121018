@@ -7,8 +7,6 @@ def reverse_each_word(string)
     counter++
     if counter < array.size
       answer = answer + x.reverse + " "
-    else 
-      answer = answer + x.reverse
     end
   end
   return answer
